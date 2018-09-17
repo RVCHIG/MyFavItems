@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90B943292150624000AA5862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B943282150624000AA5862 /* AppDelegate.swift */; };
+		90B9432B2150624000AA5862 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9432A2150624000AA5862 /* MasterViewController.swift */; };
+		90B9432D2150624000AA5862 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9432C2150624000AA5862 /* DetailViewController.swift */; };
+		90B943302150624000AA5862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B9432E2150624000AA5862 /* Main.storyboard */; };
+		90B943322150625200AA5862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B943312150625200AA5862 /* Assets.xcassets */; };
+		90B943352150625200AA5862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B943332150625200AA5862 /* LaunchScreen.storyboard */; };
+		90B943402150625200AA5862 /* MyFavLiquorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9433F2150625200AA5862 /* MyFavLiquorTests.swift */; };
+		90B9434B2150625200AA5862 /* MyFavLiquorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9434A2150625200AA5862 /* MyFavLiquorUITests.swift */; };
+		90B94361215065F500AA5862 /* Deep Eddy Lemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B94359215065F400AA5862 /* Deep Eddy Lemon.jpg */; };
+		90B94362215065F500AA5862 /* Four Roses Yellow Label.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B9435A215065F400AA5862 /* Four Roses Yellow Label.jpg */; };
+		90B94364215065F500AA5862 /* Stolichnaya Vodka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B9435C215065F500AA5862 /* Stolichnaya Vodka.jpg */; };
+		90B94365215065F500AA5862 /* El Mayor Reposado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B9435D215065F500AA5862 /* El Mayor Reposado.jpg */; };
+		90B94366215065F500AA5862 /* Zaya Dark Rum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B9435E215065F500AA5862 /* Zaya Dark Rum.jpg */; };
+		90B94367215065F500AA5862 /* Kung Fu Girl Riesling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B9435F215065F500AA5862 /* Kung Fu Girl Riesling.jpg */; };
+		90B94368215065F500AA5862 /* Gekkeikan Plum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B94360215065F500AA5862 /* Gekkeikan Plum.jpg */; };
+		90B9436A215066D000AA5862 /* Yamazaki 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90B94369215066D000AA5862 /* Yamazaki 12.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90B9433C2150625200AA5862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B9431D2150623F00AA5862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B943242150624000AA5862;
+			remoteInfo = MyFavLiquor;
+		};
+		90B943472150625200AA5862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B9431D2150623F00AA5862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B943242150624000AA5862;
+			remoteInfo = MyFavLiquor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90B943252150624000AA5862 /* MyFavLiquor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavLiquor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B943282150624000AA5862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90B9432A2150624000AA5862 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		90B9432C2150624000AA5862 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		90B9432F2150624000AA5862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90B943312150625200AA5862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90B943342150625200AA5862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90B943362150625200AA5862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B9433B2150625200AA5862 /* MyFavLiquorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavLiquorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B9433F2150625200AA5862 /* MyFavLiquorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavLiquorTests.swift; sourceTree = "<group>"; };
+		90B943412150625200AA5862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B943462150625200AA5862 /* MyFavLiquorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFavLiquorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B9434A2150625200AA5862 /* MyFavLiquorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavLiquorUITests.swift; sourceTree = "<group>"; };
+		90B9434C2150625200AA5862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B94359215065F400AA5862 /* Deep Eddy Lemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deep Eddy Lemon.jpg"; sourceTree = "<group>"; };
+		90B9435A215065F400AA5862 /* Four Roses Yellow Label.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Four Roses Yellow Label.jpg"; sourceTree = "<group>"; };
+		90B9435C215065F500AA5862 /* Stolichnaya Vodka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stolichnaya Vodka.jpg"; sourceTree = "<group>"; };
+		90B9435D215065F500AA5862 /* El Mayor Reposado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El Mayor Reposado.jpg"; sourceTree = "<group>"; };
+		90B9435E215065F500AA5862 /* Zaya Dark Rum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Zaya Dark Rum.jpg"; sourceTree = "<group>"; };
+		90B9435F215065F500AA5862 /* Kung Fu Girl Riesling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kung Fu Girl Riesling.jpg"; sourceTree = "<group>"; };
+		90B94360215065F500AA5862 /* Gekkeikan Plum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gekkeikan Plum.jpg"; sourceTree = "<group>"; };
+		90B94369215066D000AA5862 /* Yamazaki 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yamazaki 12.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B943222150624000AA5862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B943382150625200AA5862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B943432150625200AA5862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B9431C2150623F00AA5862 = {
+			isa = PBXGroup;
+			children = (
+				90B943582150652E00AA5862 /* images */,
+				90B943272150624000AA5862 /* MyFavLiquor */,
+				90B9433E2150625200AA5862 /* MyFavLiquorTests */,
+				90B943492150625200AA5862 /* MyFavLiquorUITests */,
+				90B943262150624000AA5862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90B943262150624000AA5862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B943252150624000AA5862 /* MyFavLiquor.app */,
+				90B9433B2150625200AA5862 /* MyFavLiquorTests.xctest */,
+				90B943462150625200AA5862 /* MyFavLiquorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B943272150624000AA5862 /* MyFavLiquor */ = {
+			isa = PBXGroup;
+			children = (
+				90B943282150624000AA5862 /* AppDelegate.swift */,
+				90B9432A2150624000AA5862 /* MasterViewController.swift */,
+				90B9432C2150624000AA5862 /* DetailViewController.swift */,
+				90B9432E2150624000AA5862 /* Main.storyboard */,
+				90B943312150625200AA5862 /* Assets.xcassets */,
+				90B943332150625200AA5862 /* LaunchScreen.storyboard */,
+				90B943362150625200AA5862 /* Info.plist */,
+			);
+			path = MyFavLiquor;
+			sourceTree = "<group>";
+		};
+		90B9433E2150625200AA5862 /* MyFavLiquorTests */ = {
+			isa = PBXGroup;
+			children = (
+				90B9433F2150625200AA5862 /* MyFavLiquorTests.swift */,
+				90B943412150625200AA5862 /* Info.plist */,
+			);
+			path = MyFavLiquorTests;
+			sourceTree = "<group>";
+		};
+		90B943492150625200AA5862 /* MyFavLiquorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90B9434A2150625200AA5862 /* MyFavLiquorUITests.swift */,
+				90B9434C2150625200AA5862 /* Info.plist */,
+			);
+			path = MyFavLiquorUITests;
+			sourceTree = "<group>";
+		};
+		90B943582150652E00AA5862 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90B94369215066D000AA5862 /* Yamazaki 12.jpg */,
+				90B94359215065F400AA5862 /* Deep Eddy Lemon.jpg */,
+				90B9435D215065F500AA5862 /* El Mayor Reposado.jpg */,
+				90B9435A215065F400AA5862 /* Four Roses Yellow Label.jpg */,
+				90B94360215065F500AA5862 /* Gekkeikan Plum.jpg */,
+				90B9435F215065F500AA5862 /* Kung Fu Girl Riesling.jpg */,
+				90B9435C215065F500AA5862 /* Stolichnaya Vodka.jpg */,
+				90B9435E215065F500AA5862 /* Zaya Dark Rum.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B943242150624000AA5862 /* MyFavLiquor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B9434F2150625200AA5862 /* Build configuration list for PBXNativeTarget "MyFavLiquor" */;
+			buildPhases = (
+				90B943212150624000AA5862 /* Sources */,
+				90B943222150624000AA5862 /* Frameworks */,
+				90B943232150624000AA5862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavLiquor;
+			productName = MyFavLiquor;
+			productReference = 90B943252150624000AA5862 /* MyFavLiquor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90B9433A2150625200AA5862 /* MyFavLiquorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B943522150625200AA5862 /* Build configuration list for PBXNativeTarget "MyFavLiquorTests" */;
+			buildPhases = (
+				90B943372150625200AA5862 /* Sources */,
+				90B943382150625200AA5862 /* Frameworks */,
+				90B943392150625200AA5862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90B9433D2150625200AA5862 /* PBXTargetDependency */,
+			);
+			name = MyFavLiquorTests;
+			productName = MyFavLiquorTests;
+			productReference = 90B9433B2150625200AA5862 /* MyFavLiquorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90B943452150625200AA5862 /* MyFavLiquorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B943552150625200AA5862 /* Build configuration list for PBXNativeTarget "MyFavLiquorUITests" */;
+			buildPhases = (
+				90B943422150625200AA5862 /* Sources */,
+				90B943432150625200AA5862 /* Frameworks */,
+				90B943442150625200AA5862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90B943482150625200AA5862 /* PBXTargetDependency */,
+			);
+			name = MyFavLiquorUITests;
+			productName = MyFavLiquorUITests;
+			productReference = 90B943462150625200AA5862 /* MyFavLiquorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B9431D2150623F00AA5862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					90B943242150624000AA5862 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					90B9433A2150625200AA5862 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 90B943242150624000AA5862;
+					};
+					90B943452150625200AA5862 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 90B943242150624000AA5862;
+					};
+				};
+			};
+			buildConfigurationList = 90B943202150623F00AA5862 /* Build configuration list for PBXProject "MyFavLiquor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90B9431C2150623F00AA5862;
+			productRefGroup = 90B943262150624000AA5862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B943242150624000AA5862 /* MyFavLiquor */,
+				90B9433A2150625200AA5862 /* MyFavLiquorTests */,
+				90B943452150625200AA5862 /* MyFavLiquorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B943232150624000AA5862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B9436A215066D000AA5862 /* Yamazaki 12.jpg in Resources */,
+				90B94365215065F500AA5862 /* El Mayor Reposado.jpg in Resources */,
+				90B943352150625200AA5862 /* LaunchScreen.storyboard in Resources */,
+				90B943322150625200AA5862 /* Assets.xcassets in Resources */,
+				90B943302150624000AA5862 /* Main.storyboard in Resources */,
+				90B94362215065F500AA5862 /* Four Roses Yellow Label.jpg in Resources */,
+				90B94368215065F500AA5862 /* Gekkeikan Plum.jpg in Resources */,
+				90B94364215065F500AA5862 /* Stolichnaya Vodka.jpg in Resources */,
+				90B94366215065F500AA5862 /* Zaya Dark Rum.jpg in Resources */,
+				90B94367215065F500AA5862 /* Kung Fu Girl Riesling.jpg in Resources */,
+				90B94361215065F500AA5862 /* Deep Eddy Lemon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B943392150625200AA5862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B943442150625200AA5862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B943212150624000AA5862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B9432D2150624000AA5862 /* DetailViewController.swift in Sources */,
+				90B9432B2150624000AA5862 /* MasterViewController.swift in Sources */,
+				90B943292150624000AA5862 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B943372150625200AA5862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B943402150625200AA5862 /* MyFavLiquorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B943422150625200AA5862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B9434B2150625200AA5862 /* MyFavLiquorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90B9433D2150625200AA5862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90B943242150624000AA5862 /* MyFavLiquor */;
+			targetProxy = 90B9433C2150625200AA5862 /* PBXContainerItemProxy */;
+		};
+		90B943482150625200AA5862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90B943242150624000AA5862 /* MyFavLiquor */;
+			targetProxy = 90B943472150625200AA5862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90B9432E2150624000AA5862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B9432F2150624000AA5862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90B943332150625200AA5862 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B943342150625200AA5862 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90B9434D2150625200AA5862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90B9434E2150625200AA5862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B943502150625200AA5862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyFavLiquor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavLiquor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90B943512150625200AA5862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MyFavLiquor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavLiquor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90B943532150625200AA5862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavLiquorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavLiquorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFavLiquor.app/MyFavLiquor";
+			};
+			name = Debug;
+		};
+		90B943542150625200AA5862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavLiquorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavLiquorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFavLiquor.app/MyFavLiquor";
+			};
+			name = Release;
+		};
+		90B943562150625200AA5862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavLiquorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavLiquorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFavLiquor;
+			};
+			name = Debug;
+		};
+		90B943572150625200AA5862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyFavLiquorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyFavLiquorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFavLiquor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B943202150623F00AA5862 /* Build configuration list for PBXProject "MyFavLiquor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B9434D2150625200AA5862 /* Debug */,
+				90B9434E2150625200AA5862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B9434F2150625200AA5862 /* Build configuration list for PBXNativeTarget "MyFavLiquor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B943502150625200AA5862 /* Debug */,
+				90B943512150625200AA5862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B943522150625200AA5862 /* Build configuration list for PBXNativeTarget "MyFavLiquorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B943532150625200AA5862 /* Debug */,
+				90B943542150625200AA5862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B943552150625200AA5862 /* Build configuration list for PBXNativeTarget "MyFavLiquorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B943562150625200AA5862 /* Debug */,
+				90B943572150625200AA5862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B9431D2150623F00AA5862 /* Project object */;
+}
